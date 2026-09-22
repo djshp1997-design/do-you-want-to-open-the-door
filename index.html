@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do you want to open the door?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Do you want to open the door?</h1>
+  <div class="scroll-hint">SCROLL DOWN</div>
+</section>
+
+<section class="animation-section">
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/ElwPZGHH_dg"
+      title="Do you want to open the door?"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section class="book-section">
+  <div class="book-title">
+    <span>PROCESS / IMAGE BOOK</span>
+    <span id="pageNumber">01 — 02 / 23</span>
+  </div>
+
+  <div class="book" id="book">
+    <div class="page left-page"><img id="leftImage" src="images/page01.jpg" alt="Page 1"></div>
+    <div class="page right-page"><img id="rightImage" src="images/page02.jpg" alt="Page 2"></div>
+    <div class="book-spine"></div>
+  </div>
+
+  <div class="book-controls">
+    <button id="previous">←</button>
+    <span>CLICK / DRAG TO TURN</span>
+    <button id="next">→</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
